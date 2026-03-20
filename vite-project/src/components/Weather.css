@@ -1,0 +1,32 @@
+.app {
+    padding: 20px;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+
+/* 🌤️ Clear */
+.clear {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+/* ☁️ Clouds */
+.clouds {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+/* 🌧️ Rain */
+.rain {
+  background: linear-gradient(to right, #4b79a1, #283e51);
+}
+
+/* ❄️ Snow */
+.snow {
+  background: linear-gradient(to right, #e6dada, #274046);
+}
+
+/* Default */
+.default {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
