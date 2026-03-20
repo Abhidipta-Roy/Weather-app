@@ -1,16 +1,122 @@
-# React + Vite
+# 🌤️ Weather App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Weather Application built using **React.js** that fetches real-time weather data using the OpenWeather API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🌍 Search weather by city name
+* 🌡️ Displays temperature in Celsius
+* ☁️ Shows weather condition (Clear, Clouds, Rain, etc.)
+* 🎨 Dynamic background based on weather
+* ⚡ Fast and responsive UI
+* 🔍 Real-time API data fetching
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* 🌐 Fetch API
+* 🎨 CSS (Dynamic Styling)
+* ☁️ OpenWeatherMap API
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │     └── Weather.js
+ ├── App.js
+ ├── Weather.css
+ └── index.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/weather-app.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd weather-app
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm start
+```
+
+---
+
+## 🔑 API Setup
+
+1. Get your API key from OpenWeather:
+   👉 https://openweathermap.org/api
+
+2. Replace in your code:
+
+```
+const API_KEY = "I don't want to share";
+```
+
+---
+
+## 📸 Screenshots
+
+(Add your app screenshots here)
+
+---
+
+## 🧠 What I Learned
+
+* How to fetch data from APIs in React
+* Handling async operations
+* Conditional rendering
+* Dynamic UI updates based on data
+* Error handling and debugging
+
+---
+
+## 🚀 Future Improvements
+
+* 🌍 Auto-detect user location
+* 📅 5-day weather forecast
+* ⏳ Loading spinner
+* ❌ Error handling for invalid city
+* 🌙 Day/Night mode
+
+---
+
+## 📌 Live Demo
+
+(Add your deployed link here – Vercel/Netlify)
+
+---
+
+## 🙌 Acknowledgements
+
+* OpenWeather for providing weather data
+* React documentation
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
